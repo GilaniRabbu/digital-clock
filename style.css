@@ -1,12 +1,11 @@
 body {
-    font-size: 3rem;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #151515;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
     color: #7CFC00;
-    letter-spacing: 0.1rem;
+    background-color: #151515;
 }
